@@ -7,10 +7,15 @@ The example is based on `闇音レンリ・連続音Ver1.5`.
 - Note that this is a [YAML](https://en.wikipedia.org/wiki/YAML) file. If you manually edit it, make sure you create a valid YAML file, especially you need exactly one space after ":". You may try to use a web YAML editor like [this one](https://codebeautify.org/yaml-editor-online).
 - Every field is optional at the moment.
 
+### Encoding
+```
+text_file_encoding: shift_jis
+```
+The encoding used to read `character.txt`, `prefix.map` and `oto.ini`. The `character.yaml` itself, should always be utf-8.
+
 ### Character Info
 ```
 name: 闇音レンリ・連続音Ver1.5
-text_file_encoding: shift_jis
 image: renri.bmp
 author: ゆずり
 web: https://renrivoice.wixsite.com/renri-voice/utau
