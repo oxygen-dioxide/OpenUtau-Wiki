@@ -36,8 +36,8 @@ portrait_opacity: 0.67
 - This voicebank has 3 flavors: Normal, `Whisper` and `Clear`
 - This voicebank has 4 pitches: `A3`, `D4`, `G4`, `C5`.
 - The 3 flavors and 4 pitches form 12 different subbanks in total, each has a different suffix.
-- It also has some extras, notably `↑`
-- Therefore in total 13 subbanks are specified in `character.yaml`
+- It also has some extras, notably `↑`, `Edge`
+- Therefore in total 14 subbanks are specified in `character.yaml` full example below.
 
 ### Full Example
 ```name: 闇音レンリ・連続音Ver1.5
@@ -48,74 +48,74 @@ portrait_opacity: 0.67
 author: ゆずり
 web: https://renrivoice.wixsite.com/renri-voice/utau
 subbanks:
-- prefix: ''
-  suffix: CC5
-  tone_ranges:
-  - C5-B7
-  tags:
-  - Clear
-- prefix: ''
-  suffix: CG4
-  tone_ranges:
-  - G4-B4
-  tags:
-  - Clear
-- prefix: ''
-  suffix: CD4
-  tone_ranges:
-  - D4-F#4
-  tags:
-  - Clear
-- prefix: ''
-  suffix: CA3
-  tone_ranges:
-  - C1-C#4
-  tags:
-  - Clear
-- prefix: ''
-  suffix: WC5
-  tone_ranges:
-  - C5-B7
-  tags:
-  - Whisper
-- prefix: ''
-  suffix: WG4
-  tone_ranges:
-  - G4-B4
-  tags:
-  - Whisper
-- prefix: ''
-  suffix: WD4
-  tone_ranges:
-  - D4-F#4
-  tags:
-  - Whisper
-- prefix: ''
-  suffix: WA3
-  tone_ranges:
-  - C1-C#4
-  tags:
-  - Whisper
-- prefix: ''
+- color: ''
+  prefix: ''
   suffix: C5
   tone_ranges:
   - C5-B7
-- prefix: ''
+- color: ''
+  prefix: ''
   suffix: G4
   tone_ranges:
   - G4-B4
-- prefix: ''
+- color: ''
+  prefix: ''
   suffix: D4
   tone_ranges:
   - D4-F#4
-- prefix: ''
+- color: ''
+  prefix: ''
   suffix: A3
   tone_ranges:
   - C1-C#4
-- prefix: ''
+- color: ↑
+  prefix: ''
   suffix: ↑
   tone_ranges:
   - C1-B7
-  tags:
-  - ↑
+- color: Clear
+  prefix: ''
+  suffix: CC5
+  tone_ranges:
+  - C5-B7
+- color: Clear
+  prefix: ''
+  suffix: CG4
+  tone_ranges:
+  - G4-B4
+- color: Clear
+  prefix: ''
+  suffix: CD4
+  tone_ranges:
+  - D4-F#4
+- color: Clear
+  prefix: ''
+  suffix: CA3
+  tone_ranges:
+  - C1-C#4
+- color: Whisper
+  prefix: ''
+  suffix: WC5
+  tone_ranges:
+  - C5-B7
+- color: Whisper
+  prefix: ''
+  suffix: WG4
+  tone_ranges:
+  - G4-B4
+- color: Whisper
+  prefix: ''
+  suffix: WD4
+  tone_ranges:
+  - D4-F#4
+- color: Whisper
+  prefix: ''
+  suffix: WA3
+  tone_ranges:
+  - C1-C#4
+- color: Edge
+  prefix: ''
+  suffix: "'"
+  tone_ranges:
+  - C1-B7
 ```
