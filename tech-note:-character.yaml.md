@@ -32,11 +32,11 @@ portrait_opacity: 0.67
 - If you edit the file when OpenUtau is open, go to singers dialog and click "..." -> "Refresh" to reload it.
 
 ### Sub-banks
-- `闇音レンリ・連続音Ver1.5` is a multi-pitch, multi-flavor bank.
-- This voicebank has 3 flavors: Normal, `Whisper` and `Clear`
-- This voicebank has 4 pitches: `A3`, `D4`, `G4`, `C5`.
-- The 3 flavors and 4 pitches form 12 different subbanks in total, each has a different suffix.
-- It also has some extras, notably `↑`, `Edge`.
+- `闇音レンリ・連続音Ver1.5` is a multi-pitch, multi-color bank.
+- This voicebank has 3 voice colors: Normal, `Whisper` and `Clear`
+- This voicebank has 4 tone ranges: `A3`, `D4`, `G4`, `C5`.
+- The 3 voice colors and 4 tone ranges form 12 different subbanks in total, each has a different suffix.
+- It also has some extras, notably `↑`, `Edge`. These are simply mapped to full tone range.
 - Therefore in total 14 subbanks are specified in `character.yaml`. The suffixes visualized in table looks like:
 
 |             | C1-C#4 | D4-F#4 | G4-B4 | C5-B7 |
