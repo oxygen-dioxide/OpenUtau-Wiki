@@ -36,8 +36,16 @@ portrait_opacity: 0.67
 - This voicebank has 3 flavors: Normal, `Whisper` and `Clear`
 - This voicebank has 4 pitches: `A3`, `D4`, `G4`, `C5`.
 - The 3 flavors and 4 pitches form 12 different subbanks in total, each has a different suffix.
-- It also has some extras, notably `↑`, `Edge`
-- Therefore in total 14 subbanks are specified in `character.yaml` full example below.
+- It also has some extras, notably `↑`, `Edge`.
+- Therefore in total 14 subbanks are specified in `character.yaml`. The suffixes visualized in table looks like:
+
+|             | C1-C#4 | D4-F#4 | G4-B4 | C5-B7 |
+| ----------- | ------ | ------ | ----- | ----- |
+| **(main)**  | A3     | D4     | G4    | C5    |
+| **Clear**   | CA3    | CD4    | CG4   | CC5   | 
+| **Whisper** | WA3    | WD4    | WG4   | WC5   | 
+| **Edge**    | '      | '      | '     | '     |
+| **↑**       | ↑      | ↑      | ↑     | ↑     |
 
 ### Full Example
 ```name: 闇音レンリ・連続音Ver1.5
