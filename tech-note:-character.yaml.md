@@ -4,7 +4,8 @@ The example is based on `闇音レンリ・連続音Ver1.5`.
 
 ### About character.yaml
 - `character.yaml` is the file used to store extra info that OpenUtau needs that cannot be captured by the traditional UTAU voicebank file set.
-- Note that this is a [YAML](https://en.wikipedia.org/wiki/YAML) file. If you manually edit it, make sure you create a valid YAML file, especially you need exactly one space after ":". You may try to use a web YAML editor like [this one](https://codebeautify.org/yaml-editor-online).
+- The best way to edit `character.yaml` is from OpenUtau "Singers" dialog.
+- If you manually edit it, note that this is a [YAML](https://en.wikipedia.org/wiki/YAML) file. Make sure you create a valid YAML file, especially you need exactly one space after ":". You may try to use a web YAML editor like [this one](https://codebeautify.org/yaml-editor-online).
 - Every field is optional at the moment.
 
 ### Encoding
