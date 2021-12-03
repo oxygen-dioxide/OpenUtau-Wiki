@@ -48,6 +48,10 @@ portrait_opacity: 0.67
 | **Edge**    | '      | '      | '     | '     |
 | **↑**       | ↑      | ↑      | ↑     | ↑     |
 
+- To apply the above configuration. Go to `Tools` -> `Singers` -> `Edit Subbanks`. The final result should look like:
+
+![subbanks](https://i.imgur.com/XznEdSu.png)
+
 ### Full Example
 ```name: 闇音レンリ・連続音Ver1.5
 text_file_encoding: shift_jis
