@@ -32,7 +32,7 @@ portrait_opacity: 0.67
 - The image is currently displayed in its original size unless the image is more than 800 **tall**, in which case will be resized to 800 tall.
 - If you edit the file when OpenUtau is open, go to singers dialog and click "..." -> "Refresh" to reload it.
 
-### Sub-banks
+### Sub-banks (Voice Color)
 - `闇音レンリ・連続音Ver1.5` is a multi-pitch, multi-color bank.
 - This voicebank has 3 voice colors: Normal, `Whisper` and `Clear`
 - This voicebank has 4 tone ranges: `A3`, `D4`, `G4`, `C5`.
